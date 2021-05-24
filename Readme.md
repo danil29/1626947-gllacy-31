@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Данил Хон](https://up.htmlacademy.ru/htmlcss/31/user/1626947).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Зубко](https://htmlacademy.ru/profile/whatislove).
 
 ---
 
