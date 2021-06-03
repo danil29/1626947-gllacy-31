@@ -21,120 +21,176 @@
      <a href=""> Вход</a>
      <a href="">Корзина</a>
      <p>с 10 до 20, ежедневно</p>
-     <a href="tel:8 812 450-25-25">8 812 450-25-25></a>
-
+     <a href="tel:8 812 450-25-25">8 812 450-25-25</a>
    </nav>
    </header>
    <main>
-     <section>
-     <img src="Мороженко 5.png" alt="" width="367" height="582">
-     <img src="Мороженко 6.png" alt="" width="325" height="523">
-     <h1> Крем-брюле и пломбир с малиновым джемом </h1>
-     <button type="button">Давайте оба</button>
-   </section>
-   <section>
      <ul>
-       <li>
-         <h2>Малинка даром!</h2>
-         <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-         <img src="Малиновый фон.png" alt="" width="560" height="229">
-         <button type="button"> Хочу варенье!</button>
-       </li>
-       <li>
-         <h2>Шоколадки даром!</h2>
-         <p> При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-         <img src="Шоколадный фон.png" alt="" width="560" height="229">
-         <button type="button">Хочу шоколадки!</button>
-       </li>
-     </ul>
-   </section>
-   <section>
-     <ul>
-       <li>
-         ХИТ
-         <img src="хит 1.jpg" alt="" width="267" height="267">
-         <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-       </li>
-       <li>
-         ХИТ
-         <img src="Хит 2.png" alt="" width="267" height="267">
-         <p>Сливочно-кофейное с кусочками шоколада</p>
-       </li>
-       <li>
-         ХИТ
-         <img src="Хит 3.png" alt="" width="267" height="267">
-         <p> Сливочно-клубничное с присыпкой из белого шоколада</p>
-       </li>
-       <li>
-         ХИТ
-         <img src="Хит 4.png" alt="" width="267" height="267">
-         <p> Сливочное крем-брюле с карамельной подливкой </p>
-       </li>
-     </ul>
-   </section>
-   <section>
-       <h3>Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес</h3>
-       <img src="Вафля фон.png" alt="" width="1146" height="306">
-       <ul>
-         <li> <img src="Мороженое.png" alt="" width="16" height="32">
-           <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-         </li>
-         <li>
-           <img src="Листик.png" alt="" width="16" height="27">
-           <p> Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
-         </li>
-         <li>
-           <img src="Корова.png" alt="" width="24" height="24">
-           <p>Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
-         </li>
-         <li>
-           <img src="Градусник.png" src="" width="16" height="26">
-           <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
-         </li>
-       </ul>
-   </section>
-   <atricle>
-     <h3><u>10 способов сервировки фруктовых щербетов к столу</u></h3>
-     <img src="Клубничный фон.png" alt="" width="560" height="220">
-     <p> Новое о нашем влоге</p>
-   </article>
-   <article>
-     <img src="Почтовый-фон.png" alt="" width="560" height="220">
-     <p>Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-     <form action="https://echo.htmlacademy.ru" method="post">
+       <li> <a href="index.html">Главная</a></li>
+       <li> <a href="blank.html">Каталог</a></li>
+       <li> Сливочное </li>
+    </ul>
+    <h1>Сливочное мороженое</h1>
+    <section>
+    <h2> Фильтр товаров:</h2>
+    <form method="get" action="https://echo.htmlacademy.ru">
+    <select name="по популярности">
+      <option value="недорогие"> сначала недорогие</option>
+      <option value="дорогие"> сначала дорогие</option>
+      <option value="по жирности"> по жирности</option>
+    </select>
+    <p>
+      <label for="price">Цена:100-500 P</label>
+      <input id="price" type="text">
+    </p>
+    <fieldset>
+    <legend> Жирность </legend>
+      <ul>
+        <li>
+          <input type="radio" name="product-name" id="r" checked>
+          <label for="r">0</label>
+        </li>
+        <li>
+          <input type="radio" name="product-name" id="d" checked>
+          <label for="d">до 10%</label>
+        </li>
+        <li>
+          <input type="radio" name="product-name" id="x">
+          <label for="x">до 30%</label>
+        </li>
+        <li>
+          <input type="radio" name="product-name" id="p">
+          <label for="p">выше 30%</label>
+        </li>
+      </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Наполнители:</legend>
+        <ul>
+          <li>
+            <input type="checkbox" name="chocolate" id="filter-chocolate" checked>
+            <label for="filter-chocolate">Шоколадные</label>
+          </li>
+          <li>
+            <input type="checkbox" name="sugar" id="filter-sugar" checked>
+            <label for="filter-sugar">Сахарные присыпки</label>
+          </li>
+          <li>
+            <input type="checkbox" name="fruit" id="filter-fruit">
+            <label for="filter-fruit">Фрукты</label>
+          </li>
+          <li>
+            <input type="checkbox" name="monin" id="filter-monin">
+            <label for="filter-monin">Сиропы</label>
+          </li>
+          <li>
+            <input type="checkbox" name="jam" id="filter-jam">
+            <label for="filter-jam">Джемы</label>
+          </li>
+      </fieldset>
 
-         <label for="email"> Mail </label>
-         <input id="email" type="email" name="mail" placeholder="email@example.com">
-         <button type="submit"> Отправить</button>
+      <button type="submit">Применить</button>
 
-     </form>
-   </article>
-   <section>
-     <img src="Карта.png" alt="" width="1200" height="430">
-     <p>Адрес главного офиса и офлайн-магазина:</p>
-     <b>наб. Реки Карповки, 5 лит П, Санкт-Петербург</b>
-     <p>Для заказов по телефону:</p>
-     <a href="tel:+7 800 555-86-28"> <b>+7 800 555-86-28</b> </a>
-     <p>(с 10 до 20 ежедневно)</p>
-     <a href="blank.html"> Форма обратной связи</a>
+      </form>
+    </section>
+    <ul>
+      <li>
+        <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+        <h2>310 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочно-кофейное с кусочками шоколада</p>
+        <h2>380 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочно-клубничное с присыпкой из белого шоколада </p>
+        <h2>355 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочное крем-брюле с карамельной подливкой </p>
+        <h2>415 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочное с брусничным джемом</p>
+        <h2>325 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочно-черничное с цельными ягодами черники </p>
+        <h2>410 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочно-лимонное с карамельной присыпкой</p>
+        <h2>315 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочное с шоколадной стружкой</p>
+        <h2>320 ₽ </h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочно-ванильное с кусочками шоколада</p>
+        <h2>440 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочноe с ментоловым сиропом</p>
+        <h2>435 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочное с кусочками черного шоколада</p>
+        <h2>355 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+      <li>
+        <p>Сливочное с мятным сиропом</p>
+        <h2>420 ₽</h2>
+        <p>/кг</p>
+        <a><img src="https://via.placeholder.com/267x267" alt=""></a>
+      </li>
+    </ul>
 
-   </section>
- </main>
- <footer>
-   <ul>
-     <li><a href="facebook.com"><img src="facebook.png" alt="" width="32" height="32"></a></li>
-     <li><a href="vk.com"><img src="vk.png" alt="" width="32" height="32"></a></li>
-     <li><a href="instagram.com"><img src="inst.png" alt="" width="32" height="32"> </a></li>
-     <li><a href="twitter.com"><img src="twitter.png" alt="" width="32" height="32"></a></li>
-   </ul>
-   <ul>
-     <li><a href="blank.html">Для поставщиков</a></li>
-     <li><a href="blank.html">О производстве</a></li>
-     <li><a href="blank.html">Наши документы</a></li>
-     <li><a href="blank.html">Экологические стандарты</a></li>
-   </ul>
-   <img src="Лого HTML Academy.png" alt="" width="108" height="31">
-   <a href="htmlacademy.com"> Сделано в HTML Academy © 2021</a>
- </footer>
- </body>
- </html>
+  <ul>
+    <li>1</li>
+    <li><a href="blank.html">2</a></li>
+    <li><a href="blank.html">3</a></li>
+    <li><a href="blank.html">4</a></li>
+  </ul>
+  </section>
+</main>
+<footer>
+  <ul>
+    <li><a href="facebook.com"><img src="facebook.png" alt="" width="32" height="32"></a></li>
+    <li><a href="vk.com"><img src="vk.png" alt="" width="32" height="32"></a></li>
+    <li><a href="instagram.com"><img src="inst.png" alt="" width="32" height="32"> </a></li>
+    <li><a href="twitter.com"><img src="twitter.png" alt="" width="32" height="32"></a></li>
+  </ul>
+  <ul>
+    <li><a href="blank.html">Для поставщиков</a></li>
+    <li><a href="blank.html">О производстве</a></li>
+    <li><a href="blank.html">Наши документы</a></li>
+    <li><a href="blank.html">Экологические стандарты</a></li>
+  </ul>
+  <img src="Лого HTML Academy.png" alt="" width="108" height="31">
+  <a href="htmlacademy.com"> Сделано в HTML Academy © 2021</a>
+</footer>
+</body>
+</html>
