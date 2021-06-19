@@ -15,36 +15,31 @@
   line-height: 18px;
   font-weight: 700;
   background-image: url("img/background.png");
-
 }
 
-
-
-.header-phone{
+.header-phone {
   color: var(--basic-white);
   font-size: 22px;
   line-height: 24px;
 }
 
-
-.main-navigation{
+.main-navigation {
   font-size: 16px;
   line-height: 18px;
   color: var(--basic-white);
-  font-weight: 700;
-  }
-.main-navigation-wrapper{
+}
+.main-navigation-wrapper {
   font-size: 14px;
   line-height: 16px;
   color: var(--basic-white);
-  font-weight: 700;
-  }
-.site-navigation{
+
+}
+.site-navigation {
   list-style: none;
   font-size: 16px;
   line-height: 18px;
 }
-.user-navigation-list{
+.user-navigation-list {
   list-style: none;
   font-size: 14px;
   line-height: 16px;
@@ -53,8 +48,7 @@
 .site-navigation a,
 .user-navigation a,
 .footer-copyright a,
-.pagination-list a
-{
+.addition-list a {
   color: var(--basic-white);
 }
 .site-navigation a:hover,
@@ -65,62 +59,53 @@
   color: var(--basic-black);
 
 }
-.combo{
-
+.combo {
   text-align: center;
-
 }
-.combo h1{
+
+.combo h1 {
   font-size: 60px;
   line-height: 60px;
-  font-weight: 700;
 }
-.combo button{
+.combo button {
   font-size: 32px;
   line-height: 44px;
-  font-weight: 700;
 }
 
-.promotions-list{
+.promotions-list {
   list-style: none;
 }
-.promotions-item-rasberry{
+.promotions-item-rasberry {
   color: var(--basic-white);
 }
-.promotions-item-rasberry h2{
+.promotions-item-rasberry h2 {
   font-size: 35px;
   line-height: 41px;
-  font-weight: 700;
 }
-.promotions-item-rasberry p{
+.promotions-item-rasberry p {
   font-size: 18px;
   line-height: 22px;
-  font-weight: 700;
 }
-.promotions-item-rasberry button{
+.promotions-item-rasberry button {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
 }
-.promotions-item-chocolate{
+.promotions-item-chocolate {
   color: var(--basic-white);
 }
-.promotions-item-chocolate h2{
+.promotions-item-chocolate h2 {
   font-size: 35px;
   line-height: 41px;
-  font-weight: 700;
 }
-.promotions-item-chocolate p{
+.promotions-item-chocolate p {
   font-size: 18px;
   line-height: 22px;
-  font-weight: 700;
 }
-.promotions-item-chocolate button{
+.promotions-item-chocolate button {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
 }
-.ice-cream-list{
+.ice-cream-list {
   list-style: none;
 }
 .ice-cream-item h3 {
@@ -132,71 +117,72 @@
 .ice-cream-item b {
   font-size: 45px;
   line-height: 45px;
-  font-weight: 700;
 }
 .ice-cream-item p {
   font-size: 30px;
   line-height: 35px;
-  font-weight: 700;
 }
 .ice-cream-item {
   color: var(--basic-white);
 }
-.features h4{
+.features h4 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 500;
 }
-.features-list{
+.features-list {
   list-style: none;
 }
-.features-item p{
+.features-item p {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
 }
-.news p{
+.news p {
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
 }
-.news h3{
+.news h3 {
   font-size: 24px;
   line-height: 30px;
-  font-weight: 700;
 }
-.follow p{
+.follow p {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
 }
-.location p{
+.location p {
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
 }
-.location b{
+.location b {
   font-size: 18px;
   line-height: 24px;
 }
-.footer-social-list{
+.footer-social-list {
   list-style: none;
 }
-.pagination-list{
+.addition-list {
   list-style: none;
 }
-.pagination-item{
+.addition-item {
   font-size: 13px;
   line-height: 18px;
   text-decoration: underline;
 }
+.addition-item a {
+  text-decoration: none;
+
+}
 .user-navigation-list a {
   text-decoration: none;
 }
-.header-phone{
+.header-phone {
   text-decoration: none;
 }
-.footer-copyright{
+.footer-copyright {
   color: var(--basic-white);
   font-size: 12px;
   line-height: 18px;
@@ -205,6 +191,95 @@
   text-decoration: none;
   color: var(--basic-white);
 }
-.button{
+.button {
   background-color: var(--red);
+}
+.site-navigation-item-current {
+  background-color: var(--red);
+}
+.vanilla {
+  list-style: none;
+  color: var(--basic-white);
+}
+.vanilla a {
+  color: var(--basic-white);
+}
+.page-title {
+  font-size: 35px;
+  line-height: 41px;
+  color: var(--basic-white);
+}
+.filter {
+  color:var(--basic-white);
+}
+.filter legend {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.label-price , {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.filter ul {
+  list-style: none;
+}
+.filter button {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  background-color:  rgba(255, 255, 255, 0.2);
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.filter select {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+.site-navigation-current {
+  border-radius: 26px;
+  background-color: #D07058;
+}
+.vanilla-list {
+  list-style: none;
+  color: var(--basic-white);
+}
+.vanilla-item {
+  list-style: none;
+}
+.vanilla-item p {
+  font-size: 35px;
+  line-height: 35px;
+}
+.vanilla-item b {
+  font-size: 45px;
+  line-height: 45px;
+  text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
+}
+.vanilla-item a {
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.pagination-list {
+  list-style: none;
+}
+.pagination-item a{
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+.pagination-item {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.pagination-item-current {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-decoration: none;
 }
