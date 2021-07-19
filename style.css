@@ -12,7 +12,7 @@
   max-width: 1200px;
 }
 .page-body {
-  margin-left: 27px;
+  margin: 0;
   padding: 0;
   font-family:"Roboto",Arial,sans-serif;
   font-size: 16px;
@@ -27,6 +27,10 @@
 }
 .main-header {
   width: 1146px;
+  margin-left: 27px;
+  margin-right: 27px;
+  margin-top: 9px;
+  height: 114px;
 }
 
 .header-phone {
@@ -103,7 +107,6 @@
   margin-top: -270px;
 }
 .ice-cream span {
-  padding: 0;
   font-size: 30px;
   position: fixed;
 
@@ -160,7 +163,6 @@
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-white);
-  float: right;
   margin-right: 22px;
   background: linear-gradient(180deg, #F26843 0%, #E74A35 100%);
   box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
@@ -196,7 +198,6 @@
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-white);
-  float: right;
   margin-right: 22px;
   background: linear-gradient(180deg, #F26843 0%, #E74A35 100%);
   box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
@@ -214,6 +215,10 @@
   width: 1146px;
   margin: 0 auto;
   padding: 0 10px;
+}
+.another button {
+  width: 130px;
+  height: 44px;
 }
 
 .ice-cream-list {
@@ -320,7 +325,6 @@
   border-radius: 16px;
   width: 548px;
   height: 210px;
-  float: left;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 6px;
@@ -333,6 +337,11 @@
   width: 560px;
   height: 220px;
 }
+#email {
+  width: 360px;
+  height: 44px;
+
+}
 .follow-me {
   font-size: 16px;
   line-height: 22px;
@@ -342,10 +351,11 @@
   margin-bottom: 47px;
   margin-right: 16px;
 }
-.another form {
-  width: 508px;
-  height: 45px;
-  align-items: center;
+.follow-form {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 34px;
+
 }
 .button {
   font-size: 18px;
@@ -370,8 +380,6 @@
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  width: 172px;
-  height: 60px;
   margin-bottom: 30px;
   margin-left: 25px;
   margin-right: 106px;
@@ -383,9 +391,6 @@
 .location {
   background: #FEFEFE;
   border-radius: 16px;
-  width: 303px;
-  height: 306px;
-  float: right;
   position: absolute;
   top: 2230px;
   bottom: 165px;
@@ -435,8 +440,7 @@
 
 }
 .header-info {
-  text-align: right;
-  width: 167px;
+  max-width:167px;
   margin-right: 27px;
 
 }
@@ -473,6 +477,9 @@
 .vanilla {
   list-style: none;
   color: var(--basic-white);
+  font-size: 14px;
+  line-height: 16px;
+
 }
 .vanilla a {
   color: var(--basic-white);
@@ -490,6 +497,16 @@
   line-height: 16px;
   font-weight: 500;
 }
+.filters {
+  width: 869px;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filters h2 {
+  visibility: hidden;
+}
+
 .label-price , {
   font-size: 14px;
   line-height: 16px;
@@ -514,6 +531,8 @@
 .site-navigation-current {
   border-radius: 26px;
   background-color: #D07058;
+  width: 89px;
+  height: 31px;
 }
 .vanilla-list {
   list-style: none;
@@ -543,8 +562,6 @@
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  width: 360px;
-  height: 35px;
 }
 .pagination-item a{
   color: var(--basic-black);
